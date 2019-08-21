@@ -1,0 +1,24 @@
+FROM alpine
+RUN apk update && apk upgrade
+#RUN apk add mc
+#RUN apk add 
+RUN apk add git
+#ARG username =$Rusichka
+#ARG pass =$:bnnz_ghtrhfcyt_999
+RUN  mkdir Docker
+WORKDIR Doker
+ENTRYPOINT ["git","clone"]
+#RUN git clone https://Rusichka:$:bnnz_ghtrhfcyt_999@github.com/Rusichka/Docker_repo.git
+#RUN apk info -vv | grep 'foo' >>new.log
+#RUN cd /usr/bin/ 
+#RUN echo "# Docker_repo" >> README.md
+#RUN git config --global user.email "russi4ka@gmail.com"
+#RUN git config --global user.name "Rusichka"
+#RUN git init
+#RUN git add README.md
+#RUN apk info -vv | sort >>  README.md
+#RUN git commit -m "first commit"
+#RUN git remote add origin https://github.com/Rusichka/Docker_repo.git
+#RUN git push -u origin master
+
+#ENTRYPOINT https://github.com/Rusichka/Docker_repo
