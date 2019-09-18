@@ -1,0 +1,3 @@
+docker run -it -e SERVER_URL="http://localhost:8111"  \ 
+    -v DevOps_ITEA/data/teamcity_agent/conf  \
+    jetbrains/teamcity-agent
